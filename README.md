@@ -5,7 +5,7 @@ This is a toolchain for building router firmware based on Broadcom Cortex-A9. Ex
 * uClibc 0.9.33.2
 * Linux kernel 2.6.36.4
 
-Essentially the same used by Asus to build their latest ARM based ASUSWRT or by other people to build Asuswrt-Merlin. What's new in this toolchain is uClibc 0.9.33.2. It's the latest stable release of uClibc which supports Native Posix Thread Library. ASUS's toolchain in their GPL code uses uClibc 0.9.32.1 and compiled in an ancient version of LinuxThread thread library i.e. with NPTL disabled.
+Essentially the same used by Asus to build their latest ARM based ASUSWRT or by other people to build Asuswrt-Merlin. ASUS's toolchain in their GPL code uses uClibc 0.9.32.1 and compiled in an ancient version of LinuxThread thread library i.e. with NPTL disabled. What's new in this toolchain is uClibc 0.9.33.2. It's the latest stable release of uClibc which supports Native Posix Thread Library. NPTL is enabled as well as TLS in both libc and gcc.
 
 The toolchain has been tested to successfully build Asuswrt-Merlin v378.55. And of course it also runs on the target board, RT-AC56U. 
 
