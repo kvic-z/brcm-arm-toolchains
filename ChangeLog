@@ -1,0 +1,4 @@
+2015-11-6: Added sysroot/usr/include/timepps.h
+
+Justification:
+	For building kernel with PPS support. More details here: http://www.snbforums.com/threads/arm-toolchains-with-nptl-for-asuswrt-merlin.27938/#post-215529
