@@ -1,4 +1,15 @@
+2015-11-8: #define __USE_GNU 1 in sysroot/usr/include/netinet/in.h
+
+Justification: 
+	For Tomato build compatibility. Confirmed not affecting ASUSWRT&co build. 
+
+More details here:
+	http://www.snbforums.com/threads/arm-toolchains-with-nptl-for-asuswrt-merlin.27938/#post-215867
+
 2015-11-6: Added sysroot/usr/include/timepps.h
 
 Justification:
-	For building kernel with PPS support. More details here: http://www.snbforums.com/threads/arm-toolchains-with-nptl-for-asuswrt-merlin.27938/#post-215529
+	For building kernel with PPS support.
+
+More details here:
+	http://www.snbforums.com/threads/arm-toolchains-with-nptl-for-asuswrt-merlin.27938/#post-215529
