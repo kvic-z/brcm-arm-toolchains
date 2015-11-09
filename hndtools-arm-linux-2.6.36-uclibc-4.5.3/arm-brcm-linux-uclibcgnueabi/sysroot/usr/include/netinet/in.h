@@ -25,7 +25,7 @@
 #include <sys/socket.h>
 #include <bits/types.h>
 
-#define __USE_GNU 1        /* kvic: for compatibility with Tomatoware */
+#define __USE_GNU 1        /* kvic: for compatibility with Tomato */
 
 __BEGIN_DECLS
 
